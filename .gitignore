@@ -1,0 +1,5 @@
+node_modules
+db.json
+debug.log
+package-lock.json
+public
