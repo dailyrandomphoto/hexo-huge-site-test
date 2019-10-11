@@ -1,0 +1,16 @@
+language: node_js
+
+sudo: false
+
+cache:
+  npm: false
+
+node_js:
+  - "8"
+  - "10"
+  - "node"
+
+script:
+  - rm -f debug.log
+  - npm run g
+  - sh info.sh
