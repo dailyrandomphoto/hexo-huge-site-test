@@ -12,6 +12,7 @@ npm run g
 
 ## Information
 
+- hexo version: 3.9.0 
 - --max_old_space_size=1024
 - Post count: 1500
 - Generated files count: 3059
