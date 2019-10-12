@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "start": "hexo clean && npm run g && http-server",
-    "g": "hexo clean && node --max_old_space_size=1024 ./node_modules/.bin/hexo g -c 1 --debug",
-    "s": "hexo clean && node --max_old_space_size=1024 ./node_modules/.bin/hexo s --debug",
-    "g-inspect": "hexo clean && node --max_old_space_size=1024 --inspect-brk=0.0.0.0:9229 ./node_modules/.bin/hexo g -c 1 --debug",
-    "s-inspect": "hexo clean && node --max_old_space_size=1024 --inspect-brk=0.0.0.0:9229 ./node_modules/.bin/hexo s --debug"
+    "g": "hexo clean && node --max_old_space_size=2048 ./node_modules/.bin/hexo g -c 1 --debug",
+    "s": "hexo clean && node --max_old_space_size=2048 ./node_modules/.bin/hexo s --debug",
+    "g-inspect": "hexo clean && node --max_old_space_size=2048 --inspect-brk=0.0.0.0:9229 ./node_modules/.bin/hexo g -c 1 --debug",
+    "s-inspect": "hexo clean && node --max_old_space_size=2048 --inspect-brk=0.0.0.0:9229 ./node_modules/.bin/hexo s --debug"
   },
   "hexo": {
     "version": "3.9.0"
