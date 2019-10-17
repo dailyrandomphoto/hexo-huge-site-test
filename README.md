@@ -13,6 +13,6 @@ npm run g
 ## Information
 
 - --max_old_space_size=1024
-- Post count: 1500
+- Post count: 4500
 - Generated files count: 3059
 - Build logs: https://travis-ci.org/dailyrandomphoto/hexo-huge-site-test/branches
