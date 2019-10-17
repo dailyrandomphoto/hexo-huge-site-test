@@ -20,3 +20,7 @@ echo "node_modules/"
 echo "    hexo: " `grep '"version":' node_modules/hexo/package.json`
 echo "    hexo-util: " `grep -s '"version":' node_modules/hexo-util/package.json node_modules/hexo/node_modules/hexo-util/package.json`
 echo "    warehouse: " `grep -s '"version":' node_modules/warehouse/package.json node_modules/hexo/node_modules/warehouse/package.json`
+
+echo
+echo "npm ls"
+npm ls --depth=1 | grep -P "hexo@|hexo-util|warehouse"
