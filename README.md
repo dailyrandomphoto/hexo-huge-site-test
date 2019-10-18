@@ -16,3 +16,8 @@ npm run g
 - Post count: 1500
 - Generated files count: 3059
 - Build logs: https://travis-ci.org/dailyrandomphoto/hexo-huge-site-test/branches
+- Test report: https://github.com/dailyrandomphoto/hexo-huge-site-test/issues/1
+
+## Tips to Improve Hexo Generation Performance
+
+- https://github.com/dailyrandomphoto/hexo-huge-site-plugin/issues/1
